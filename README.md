@@ -13,9 +13,9 @@ Status: Stable / In-use (live store environment)
 
 Tracks weekly labor across a 4-week period
 Automates validation for all required inputs
-Prevents invalid or incomplete data entry
-Enforces structured workflows through sheet protection
-Restores full sheet layout automatically if altered
+Prevents incomplete or incorrect data entry
+Enforces structured workflows through protection
+Restores full sheet layout automatically
 
 
 ⚙️ Key Features
@@ -24,6 +24,7 @@ Restores full sheet layout automatically if altered
 Full-sheet lock with controlled editable cells
 Password-protected unlock system
 Automatic restore on unauthorized edits
+
 
 🧼 Restore Engine
 
@@ -38,17 +39,20 @@ Formulas
 
 Prevents formatting corruption
 
+
 ✅ Validation System
 
 Import validation (blocks bad data)
 Live validation on COVER inputs
 Visual feedback (red = incomplete, white = valid)
 
+
 📅 4-Week Period System
 
 Dynamic week generation
 Automatic period tracking
 Week navigation with persistent state
+
 
 📥 Import Pipeline
 
@@ -57,62 +61,47 @@ Week-based mapping into COVER
 Prevents incomplete imports
 
 
-🛠️ Built With
+🛠 Built With
 
 Google Apps Script
 Google Sheets
 
 
 💡 Why I Built This
-Built from real operational experience managing high-volume stores.
-Weekly labor tracking is prone to errors when handled manually. This system enforces structure, validates inputs, and protects the integrity of the data—reducing mistakes and improving consistency.
+Managing labor weekly requires accuracy and consistency.
+Manual systems break easily.
+This tool enforces structure, validates inputs, and protects data integrity—reducing mistakes and improving efficiency in real store operations.
 
 🚀 How to Use
 
-Open the Google Sheet
-Make a copy of the file
+Make a copy of the sheet
 Run InitializeThisFile()
-Set password when prompted
-Use the IMPORT sheet to load data
-Review results on the COVER sheet
+Set password
+Import weekly data
+Review results on COVER
 
 
 📸 Screenshots
-
-COVER Sheet (Labor Overview)
-
-Displays weekly labor totals, variance, and structured reporting layout.
-
-IMPORT Sheet (Data Input)
-
-Used to input raw labor data before importing into the system.
-
-Validation Feedback
-
-Highlights missing or invalid inputs using real-time visual indicators.
-
-Protected Sheet Behavior
-
-Prevents unauthorized edits and restores structure automatically.
+(Add screenshots here)
 
 📜 Version History
 v1.0 — 04.25.2026
 
 Initial GitHub release
 Full labor tracking system
-Restore engine implementation
-Validation system (import + live inputs)
+Restore engine
+Validation system
 Sheet protection framework
-Week-based import pipeline
+Import pipeline
 
 
 ⚠️ Notes
 
-This system depends on a specific spreadsheet structure (sheet names, ranges, and layout)
-Code is provided as a reference implementation of system logic
-Demo sheet is a sanitized version with no real store data
+Depends on a fixed sheet structure
+Demo is sanitized (no real data)
+Code reflects production usage logic
 
 
 📫 Contact
-📧 Email Me
+📧 michael.e.freese.tech@gmail.com
 Open to feedback, collaboration, and opportunities.
