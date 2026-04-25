@@ -1,4 +1,4 @@
-# DMES Weekly Labor Tracker
+# Weekly Labor Tracker
 
 A real-world labor tracking and validation system built for high-volume store operations using Google Sheets + Apps Script.
 ---
