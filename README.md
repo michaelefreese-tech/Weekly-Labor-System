@@ -4,7 +4,7 @@ A real-world labor tracking and validation system built for high-volume store op
 ---
 
 ## 🚀 Live Demo
-[Open Demo Sheet](YOUR_DEMO_LINK_HERE)
+[Open Demo Sheet](https://docs.google.com/spreadsheets/d/1WeLuc__oP608vEdQJqHKRwasl76eo-dN89EmsR_dlEk/edit?usp=sharing)
 
 *To test functionality: open the sheet and create your own copy.*
 
